@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".menuboard">
+
+    <LinearLayout
+        android:layout_width="350sp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="550sp"
+            android:background="@drawable/menu"
+            android:orientation="vertical"
+            android:gravity="top">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:text="Menu"
+                android:textSize="65sp"
+                android:gravity="center"
+                tools:ignore="HardcodedText" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/menu1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/menu2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/menu3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/price3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+            <android.widget.Button
+                android:id="@+id/home"
+                android:text="처음으로"
+                android:layout_width="80sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:layout_margin="20sp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_color"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText"/>
+
+            <android.widget.Button
+                android:id="@+id/map"
+                android:text="맵 보기"
+                android:layout_width="80sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:layout_margin="20sp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_color"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

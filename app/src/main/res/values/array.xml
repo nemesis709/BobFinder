@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="people">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>"한식"</item>
+        <item>"일식"</item>
+        <item>"중식"</item>
+        <item>"양식"</item>
+        <item>"아시안"</item>
+        <item>"비건/샐러드"</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>"6,000"</item>
+        <item>"8,000"</item>
+        <item>"10,000"</item>
+        <item>"12,000"</item>
+        <item>"15,000"</item>
+    </string-array>
+
+</resources>

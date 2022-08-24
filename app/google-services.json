@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463554606355",
+    "project_id": "pure-coda-329104",
+    "storage_bucket": "pure-coda-329104.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463554606355:android:ea17a41303589e188b96e6",
+        "android_client_info": {
+          "package_name": "edu.skku.testapp.bobfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463554606355-8crpjpm2geuc12u77faqbbq1m78duppi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJPSTkEHhM1l1lSj9M6B8h-_EWMyDQKIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463554606355-8crpjpm2geuc12u77faqbbq1m78duppi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
