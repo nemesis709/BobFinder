@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BobFinder" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:windowBackground">@color/Background</item>
+        <item name="android:textColor">#505050</item>
+        <item name="android:fontFamily">@font/tway</item>
+        <item name="colorPrimary">@color/BobColor</item>
+        <item name="colorPrimaryVariant">@color/BobColor</item>
+        <item name="colorOnPrimary">@color/BobColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/BobColor</item>
+        <item name="colorSecondaryVariant">@color/BobColor</item>
+        <item name="colorOnSecondary">@color/BobColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/Background</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/ButtonColor</item>
+        <item name="colorButtonNormal">@color/BobColor</item>
+    </style>
+
+    <style name="ButtonColor" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#505050</item>
+    </style>
+
+    <style name="AppTheme.NumberPicker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">28sp</item>
+        <item name="colorControlNormal">@android:color/transparent</item>
+    </style>
+</resources>
